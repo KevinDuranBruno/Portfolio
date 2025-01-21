@@ -1,0 +1,28 @@
+
+:root {
+    --primary-color: #0C9DB6;
+    --primary-hover: #086C88;;
+
+    --secondary-color: #33c1ff;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: transparent;
+}
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: transparent;
+}
+.spacer{
+    margin: 5vw;
+}
+
+.bg-primarys{
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: transparent;
+}
